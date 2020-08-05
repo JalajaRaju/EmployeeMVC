@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MySQLDBConnection-Web.config Connection String" description="MySQLDBConnection Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Employee.csdl|res://*/Models.Employee.ssdl|res://*/Models.Employee.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=JALAJA-PC\sqlexpress;initial catalog=SampleDB;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jalaja\\source\\repos\\EmployeeRegistration\\EmployeeRegistration\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MySQLDBConnection']/@connectionString" />
+  </parameter>
+</parameters>
